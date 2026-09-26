@@ -11,7 +11,7 @@
 # Example:     web-scraper.sh https://zappee.github.io zappee.github.io.txt
 #
 # Author:      Arnold Somogyi <arnold.somogyi@gmail.com>
-# Release:     February 2024
+# Release:     0.0.5
 # ##############################################################################
 
 SITE="$1"
