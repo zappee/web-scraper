@@ -45,6 +45,6 @@ $ ./remal_scraper.sh <url> <output-file>
 $ ./web-scraper.sh https://zappee.github.io zappee.github.io.txt
 ```
 
-### 4) Contributing
+### 4) 🤝 Contributing
 
-Contributions, feature requests, and  bug fixes are always welcome!
+Contributions, feature requests, and bug reports are always welcome! For more information, please visit my [homepage](https://zappee.github.io/opensource/).
