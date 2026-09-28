@@ -47,4 +47,5 @@ $ ./web-scraper.sh https://zappee.github.io zappee.github.io.txt
 
 ### 🤝 Contributing
 
-Contributions, feature requests, and bug reports are always welcome! For more information, please visit my [homepage](https://zappee.github.io).
+Contributions, feature requests, optimization, and bug reports are always welcome!
+For more information, please visit my [homepage](https://zappee.github.io).
