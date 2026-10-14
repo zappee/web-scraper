@@ -2,6 +2,10 @@
 
 All notable changes to this project are documented in this file.
 
+## [0.0.6] - 14/Oct/2026
+### Changed
+* Improve user input validation
+
 ## [0.0.5] - 26/Sep/2026
 ### Changed
 * Initial version

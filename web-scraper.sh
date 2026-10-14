@@ -11,17 +11,17 @@
 # Example:     web-scraper.sh https://zappee.github.io zappee.github.io.txt
 #
 # Author:      Arnold Somogyi <arnold.somogyi@gmail.com>
-# Release:     0.0.5
+# Release:     0.0.6
 # ##############################################################################
 
-SITE="$1"
-OUTPUT_FILE="$2"
+SITE="${1:-}"
+OUTPUT_FILE="${2:-}"
 
 # pipe-separated list of file extensions to exclude from crawling
 CONTENT_TO_IGNORE="png|jpg|jpeg|gif|ico|svg|pdf|zip|gz|js|css|xml|webp|woff2"
 
 # ANSI escape codes for terminal text formatting
-ERROR_MESSAGE_STYLE="\033[38;5;196;48;5;16m"
+ERROR_MESSAGE_STYLE="\033[38;5;196m"
 DEFAULT_TEXT_COLOR="\033[0m"
 
 # ----------------------------------------------------------------------------
@@ -199,7 +199,6 @@ function init_workspace() {
 # Main program starts.
 # ------------------------------------------------------------------------------
 check_command wget
-check_command lynx
 check_command curl
 check_command pandoc
 
