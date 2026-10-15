@@ -46,7 +46,7 @@ Getting started is simple: just copy the script to your machine, grant execution
 # grant execution permissions
 $ chmod +x web_scraper.sh
 
-run the script
+# run the script
 $ ./web_scraper.sh <url> <output-file>
 
 # example
